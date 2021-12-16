@@ -7,7 +7,7 @@
 .. hero-box::
   :title: Welcome to the Start9 Documentation
   :button_icon: scylla-icon scylla-icon--monitoring
-  :button_url: https://docs.start9.com/getting-started/introduction/
+  :button_url: user-manual
   :button_text: Start here
   :image: /_static/img/icons/docs_info.png
 
@@ -25,7 +25,7 @@
 
 .. topic-box::
   :title: Purchasing
-  :link:   getting-started/purchasing
+  :link:   user-manual/getting-started/purchasing
   :icon: scylla-icon scylla-icon--bitcoin
   :class: large-6
   :anchor: Learn more
@@ -43,7 +43,7 @@
 
 .. topic-box::
   :title: Support
-  :link: support
+  :link: knowledge-base/faq
   :icon: scylla-icon scylla-icon--support
   :class: large-6
   :anchor: Learn more
@@ -52,7 +52,7 @@
 
 .. topic-box::
   :title: DIY
-  :link: getting-started/diy
+  :link: user-manual/tuning/diy
   :icon: scylla-icon scylla-icon--integrations
   :class: large-6
   :anchor: Learn more
@@ -70,7 +70,7 @@
 
 .. topic-box::
   :title: Contribute
-  :link: contributing
+  :link: dev-docs/dev-faq/faq-contributing
   :icon: scylla-icon scylla-icon--apps
   :class: large-6
   :anchor: Learn more
@@ -85,48 +85,11 @@
 
   </div></div>
 
+.. This is for the side navigation display
 .. toctree::
   :maxdepth: 2
-  :caption: Getting Started
   :hidden:
 
-  getting-started/introduction
-  getting-started/purchasing
-  getting-started/diy
-
-.. toctree::
-  :maxdepth: 2
-  :caption: User Manual
-  :hidden:
-
-  user-manual/initial-setup
-  user-manual/connecting
-  user-manual/general/index
-  user-manual/managing-services/index
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Misc Guides
-  :hidden:
-
-  misc-guides/available-services
-  misc-guides/bitcoin-cli
-  misc-guides/tor-os/index
-  misc-guides/tor-firefox/index
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Contributing
-  :hidden:
-
-  contributing/services/index
-  contributing/embassyos
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Support
-  :hidden:
-
-  support/FAQ/index
-  support/concepts
-  support/contact
+  user-manual/index
+  knowledge-base/index
+  dev-docs/index
