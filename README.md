@@ -42,15 +42,15 @@ git clone https://github.com/Start9Labs/documentation.git && cd documentation
 git submodule update --init
 ```
 
-1. Navigate to the `docs` folder and start the project:
+1. Navigate to the `site` folder and start the project:
 
 ```
-cd docs
+cd site
 make clean && make preview
 ```
 ## Development
 
-When editing these files, begin a livereload environment by running `make preview` while in the `./docs/` directory.
+When editing these files, begin a livereload environment by running `make preview` while in the `./site/` directory.
 
 When editing any css or table of contents organization changes, the livereload environment must be ended and `make clean` run before starting `make preview` again.
 
