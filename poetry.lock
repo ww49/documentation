@@ -72,7 +72,7 @@ python-versions = "*"
 
 [[package]]
 name = "charset-normalizer"
-version = "2.0.10"
+version = "2.0.11"
 description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
 category = "main"
 optional = false
@@ -545,7 +545,7 @@ test = ["pytest"]
 
 [[package]]
 name = "sphinxcontrib-youtube"
-version = "1.0.1"
+version = "1.1.0"
 description = "Sphinx \"youtube\" extension"
 category = "main"
 optional = false
@@ -649,8 +649,8 @@ certifi = [
     {file = "certifi-2021.10.8.tar.gz", hash = "sha256:78884e7c1d4b00ce3cea67b44566851c4343c120abd683433ce934a68ea58872"},
 ]
 charset-normalizer = [
-    {file = "charset-normalizer-2.0.10.tar.gz", hash = "sha256:876d180e9d7432c5d1dfd4c5d26b72f099d503e8fcc0feb7532c9289be60fcbd"},
-    {file = "charset_normalizer-2.0.10-py3-none-any.whl", hash = "sha256:cb957888737fc0bbcd78e3df769addb41fd1ff8cf950dc9e7ad7793f1bf44455"},
+    {file = "charset-normalizer-2.0.11.tar.gz", hash = "sha256:98398a9d69ee80548c762ba991a4728bfc3836768ed226b3945908d1a688371c"},
+    {file = "charset_normalizer-2.0.11-py3-none-any.whl", hash = "sha256:2842d8f5e82a1f6aa437380934d5e1cd4fcf2003b06fed6940769c164a480a45"},
 ]
 colorama = [
     {file = "colorama-0.4.4-py2.py3-none-any.whl", hash = "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"},
@@ -898,8 +898,8 @@ sphinxcontrib-serializinghtml = [
     {file = "sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl", hash = "sha256:352a9a00ae864471d3a7ead8d7d79f5fc0b57e8b3f95e9867eb9eb28999b92fd"},
 ]
 sphinxcontrib-youtube = [
-    {file = "sphinxcontrib-youtube-1.0.1.tar.gz", hash = "sha256:ddf996279eb93cb1c3ab965812a109c30292915f8737afddb6be1ce6134dfcaf"},
-    {file = "sphinxcontrib_youtube-1.0.1-py3-none-any.whl", hash = "sha256:8946236bcf0b4b786ea3e3002f499c5f1a3298ab368fc56109dceeb0531b3cef"},
+    {file = "sphinxcontrib-youtube-1.1.0.tar.gz", hash = "sha256:94c242b9d0cb4c800836434d4af63f66f8099afb5eee9033cc2f84a066c12824"},
+    {file = "sphinxcontrib_youtube-1.1.0-py3-none-any.whl", hash = "sha256:dd6a01a4c873da3ce61caa5858a8d63be1354083543a1b8b1236af54cf1e2752"},
 ]
 tornado = [
     {file = "tornado-6.1-cp35-cp35m-macosx_10_9_x86_64.whl", hash = "sha256:d371e811d6b156d82aa5f9a4e08b58debf97c302a35714f6f45e35139c332e32"},
